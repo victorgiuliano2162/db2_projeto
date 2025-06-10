@@ -1,0 +1,9 @@
+CREATE TABLE Enderecos (
+    EnderecoID INT PRIMARY KEY AUTO_INCREMENT,
+    ClienteID INT,
+    Rua VARCHAR(255) NOT NULL,
+    Cidade VARCHAR(100) NOT NULL,
+    Estado VARCHAR(50) NOT NULL,
+    CEP VARCHAR(10) NOT NULL,
+    FOREIGN KEY (ClienteID) REFERENCES Clientes(ClienteID)
+);
