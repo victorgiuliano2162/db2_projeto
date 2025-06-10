@@ -1,0 +1,6 @@
+CREATE TABLE Fornecedores (
+    FornecedorID INT PRIMARY KEY AUTO_INCREMENT,
+    NomeFantasia VARCHAR(150) NOT NULL,
+    CNPJ VARCHAR(18) UNIQUE NOT NULL,
+    Contato VARCHAR(100)
+);
