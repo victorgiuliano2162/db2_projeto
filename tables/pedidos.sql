@@ -1,0 +1,8 @@
+CREATE TABLE Pedidos (
+    PedidoID INT PRIMARY KEY AUTO_INCREMENT,
+    ClienteID INT,
+    DataPedido DATETIME DEFAULT CURRENT_TIMESTAMP,
+    StatusPedido VARCHAR(50) NOT NULL,
+    TotalPedido DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (ClienteID) REFERENCES Clientes(ClienteID)
+);
