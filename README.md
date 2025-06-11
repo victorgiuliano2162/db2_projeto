@@ -4,10 +4,10 @@ Este repositório contém o esquema SQL, procedures e triggers para um sistema d
 
 ## Integrantes do grupo
 
-* Victor Giuliano de Freitas Silva
-* Arthur Santos Vieira da Silva 
-* Caio César Leandro Amorim
-* Ricardo Francisco Fragoso da Silva
+* `Victor Giuliano de Freitas Silva`
+* `Arthur Santos Vieira da Silva` 
+* `Caio César Leandro Amorim`
+* `Ricardo Francisco Fragoso da Silva`
 
 ## Esquema SQL (Tabelas)
 
